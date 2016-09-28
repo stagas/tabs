@@ -4,7 +4,7 @@ dev:
 		--no-browser \
 		--port=3000 \
 		--wait=200 \
-		--watch=dist,example
+		--watch=dist/tabs.js,example
 
 dev-build:
 	@./node_modules/.bin/watchify \
